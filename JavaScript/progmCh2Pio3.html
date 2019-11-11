@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random String Generator 2 page 103 </title>
+</head>
+
+<body>
+    <h1>Random String Generator 2 page 103 </h1>
+    <p>Make a random string generator</p>
+    <script>
+        var alphabet = "abcdefghijklmnopqrstuvwxyz";
+        var randomString = ""
+        var i = 0;
+        while (i < 3) {
+            randomString += alphabet[Math.floor(Math.random() * alphabet.length)]
+            i++
+        }
+        console.log("My random string is " + randomString);
+    </script>
+</body>
+
+</html>
