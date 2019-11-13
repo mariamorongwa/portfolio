@@ -1,0 +1,55 @@
+#Monday,
+#Tuesday,
+#Wednesday,
+#Thursday,
+#Friday,
+#Saturday,
+#Sunday {
+    width: 18%;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.Sunny {
+    background-image: url('Sunny.jpg');
+}
+
+.Thunderstorm {
+    background-image: url('thunderstor.jpg');
+}
+
+.Raining {
+    background-image: url('Raining.jpg');
+}
+
+.PartlyCloudy {
+    background-image: url('PartlyCloudy.jpg');
+}
+
+.foggy {
+    background-image: url('foggy.jpg');
+}
+
+.Snowing {
+    background-image: url('Snowing.jpg');
+    color: #fff;
+}
+
+#orderForm {
+    width: 75%;
+    margin: 20px auto;
+}
+
+#receipt {
+    background-image: #996600;
+    color: yellow;
+    padding: 6px;
+}
+
+body {
+    background-image: url('watherer.jgy')
+}
